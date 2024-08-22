@@ -27,3 +27,22 @@ BASICALLY PYSCH SSH DOES
 Next best thing i can say to you is **ONLY USE FOR EDUCATION PURPOSES** o_O
 
 Remember we're not **Evils**. we respect sys around us
+
+
+### How to Start
+  1) Make it Executable
+     ```chmod +x run.sh```
+  2) Run the script using root privilege
+     ```sudo ./run.sh```
+
+     - If you encounter error of some kinda shit of characters( Windows-style carriage return characters), yeah (I did created the script in windows) use this to remove them
+      ```sudo sed -i 's/\r$//' run.sh```
+     
+### Important
+  if somtg goes wrong and you messed with the ssh configuration 
+
+  Dw I gotcha <3, I have created a backup file of default configuration, use this to set to deafult
+  ```cp /etc/ssh/sshd_config.bak /etc/ssh/sshd_config```
+
+  
+
