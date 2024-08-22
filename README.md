@@ -1,5 +1,9 @@
 # pysch
 
+Here you can view all the scripts and etc. of the hacks I have done.
+We're just explore the beauty. After we done with it. You will set back to default.
+You can also see a backup script which only remove simple footprints and restore the sys to normal <3
+
 ## Pysch SSH
 FIRST OFF ALL
 
