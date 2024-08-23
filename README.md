@@ -43,6 +43,8 @@ Remember we're not **Evils**. we respect sys around us
       ```sudo sed -i 's/\r$//' run.sh```
      
 ### Important
+
+I did hard code the port changing mechanism. so u need to change the port in code not the var
   if smtg goes wrong and you mess up with the ssh configuration 
 
   Dw I gotcha <3, I have created a backup file of default configuration, use this to set to deafult
