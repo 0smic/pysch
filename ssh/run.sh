@@ -29,7 +29,7 @@ config_ssh()
     fi
 
     # Changing the default port with the new one
-    if grep -q "^#Port $SSH_PORT" "$SSH_CONFIG"; then
+    if grep -q "^#Port 22" "$SSH_CONFIG"; then
         sudo sed -i 's/^#Port 22/Port 2222/' "$SSH_CONFIG"
     elif ! grep -q "^Port 2222" "$SSH_CONFIG"; then
         echo "Port $NEW_SSH_PORT" | sudo tee -a "$SSH_CONFIG"
