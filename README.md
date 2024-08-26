@@ -34,6 +34,7 @@ Remember we're not **Evils**. we respect sys around us
 
 
 ### How to Start
+  #### RUN
   1) Make it Executable
      ```chmod +x run.sh```
   2) Run the script using root privilege
@@ -41,7 +42,20 @@ Remember we're not **Evils**. we respect sys around us
 
      - If you encounter error of some kinda shit of characters(thanks to Windows-style carriage returns), yeah (I did created the script in windows) use this to remove them
       ```sudo sed -i 's/\r$//' run.sh```
+
+  #### PYTHON SERVER SETUP
+  It's not directly related to ssh. Some of them need this. yeah i need this.
+  cause I can't take any external laptop or devices in the campus computer lab.
+  so i setup http server in the boot file of a laptop in the campus lab.
+  so whenever I'm in the lab and using another computer i can retrieve and store necessary details like usernames and password file of ssh.
+  so i can bruteforce ssh of all other devices in the lab. so that's it
+  that's a lot 'so' in it.
+  1) Make it Executable
+     ```chmod +x python_server_setup.sh```
      
+  2) Run the script using root privilege
+     ```sudo ./python_server_setup.sh```
+       - maybe you need this ```sudo sed -i 's/\r$//' python_server_setup.sh```
 ### Important
 
 I did hard code the port changing mechanism. so u need to change the port in code not the var
