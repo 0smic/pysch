@@ -1,19 +1,16 @@
 # pysch
 
 Here you can view all the scripts and other files related to the hacks I have done.
-We're just exploring the beauty of it. After we’re done, we will reset everything to default. 
 You will also find a backup script that removes simple footprints and restores the system to normal. <3
 
 ## Pysch SSH
 FIRST OFF ALL
 
   This isn’t as wild as it sounds. I built it to gain access to my campus machine so I could learn about Unix systems and stuff. * _ *
-  I’ve made it so the firewall only gives a hoot about connections within the local network. No sneaky ninja moves here.
+  I’ve made it so the firewall only gives a hoot about connections within the local network.
   
   
-This isn’t some crazy rootkit or evil magic, jst an ssh
- 
-I'm jst learning mahnn may be in the future.
+This isn’t some crazy rootkit, jst an ssh
 
 BIG CONES OF PYSCH SSH
 
@@ -28,9 +25,7 @@ BASICALLY PYSCH SSH DOES
   - changes the port
 
 
-Next best thing i can say to you is **ONLY USE FOR EDUCATION PURPOSES** o_O
 
-Remember we're not **Evils**. we respect sys around us
 
 
 ### How to Start
